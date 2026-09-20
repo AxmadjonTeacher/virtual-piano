@@ -1,0 +1,25 @@
+{
+  "name": "virtual-piano-player",
+  "version": "1.0.0",
+  "displayName": "Virtual Piano Player",
+  "description": "Automates OnlinePianist virtual piano in the browser with 88 keys, sustain pedal, and studio-grade Web Audio synthesis.",
+  "author": "AxmadjonTeacher",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxmadjonTeacher/virtual-piano.git"
+  },
+  "homepage": "https://github.com/AxmadjonTeacher/virtual-piano#readme",
+  "keywords": [
+    "antigravity-skill",
+    "agent-skill",
+    "piano",
+    "virtual-piano",
+    "music",
+    "puppeteer",
+    "classical-music",
+    "audio-synthesis"
+  ],
+  "entrypoint": "bin/cli.js",
+  "skillDoc": "SKILL.md",
+  "license": "MIT"
+}
