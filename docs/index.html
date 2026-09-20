@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Piano Player — 88-Key Studio by Axmadjon</title>
+  <meta name="description" content="Autonomous 88-key virtual piano player with studio-grade Web Audio synthesis, 18 high-definition transcribed songs, Synthesia visualizer, and live interactive playing.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎹</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="logo-badge">🎹</div>
+        <div class="header-titles">
+          <h1 class="brand-title">Virtual Piano Player <span class="badge-creator">by Axmadjon</span></h1>
+          <p class="brand-subtitle">88-Key Web Audio Engine • 18 HD Songs • Synthesia Visualizer</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="pill-badge npx-pill" title="Run anywhere in your terminal">
+          <span class="npx-label">NPX:</span>
+          <code>npx virtual-piano-by-axmadjon</code>
+          <button id="copyNpxBtn" class="icon-btn-inline" title="Copy NPX command">📋</button>
+        </div>
+        <a href="https://github.com/AxmadjonTeacher/virtual-piano" target="_blank" rel="noopener noreferrer" class="btn-github">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <main class="main-stage">
+      <!-- Piano Stage Section (Visualizer + Controls + Keyboard) -->
+      <section class="piano-stage">
+        <!-- Visualizer Canvas Container -->
+        <div class="visualizer-wrapper">
+          <canvas id="pianoRollCanvas"></canvas>
+          <div class="visualizer-watermark">
+            <span id="visTrackTitle">Select a song to begin</span>
+            <span id="visTrackComposer"></span>
+          </div>
+        </div>
+
+        <!-- Master Player Controls Bar -->
+        <div class="control-console">
+          <div class="console-left">
+            <button id="btnPlayPause" class="btn-play-primary" title="Play / Pause (Space)">
+              <span id="playIcon">▶</span>
+              <span id="playLabel">Play</span>
+            </button>
+            <button id="btnStop" class="btn-console-icon" title="Restart Song">⏹</button>
+            
+            <div class="playback-time">
+              <span id="timeCurrent">0:00</span>
+              <span class="time-divider">/</span>
+              <span id="timeTotal">0:00</span>
+            </div>
+          </div>
+
+          <div class="console-center">
+            <input type="range" id="scrubBar" min="0" max="100" value="0" step="0.1" class="scrub-slider" title="Seek position">
+          </div>
+
+          <div class="console-right">
+            <!-- Tempo Multiplier -->
+            <div class="control-item">
+              <label for="tempoSelect">Speed</label>
+              <select id="tempoSelect" class="styled-select">
+                <option value="0.5">0.5x</option>
+                <option value="0.75">0.75x</option>
+                <option value="1.0" selected>1.0x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+                <option value="2.0">2.0x</option>
+              </select>
+            </div>
+
+            <!-- Sustain Pedal Toggle -->
+            <button id="btnSustain" class="btn-toggle active" title="Toggle Sustain Pedal">
+              <span class="pedal-indicator"></span>
+              Sustain
+            </button>
+
+            <!-- Key Labels Toggle -->
+            <div class="control-item">
+              <label for="labelModeSelect">Labels</label>
+              <select id="labelModeSelect" class="styled-select">
+                <option value="notes" selected>Notes (C4)</option>
+                <option value="keys">Keys (QWERTY)</option>
+                <option value="none">Off</option>
+              </select>
+            </div>
+
+            <!-- Volume Slider -->
+            <div class="control-item volume-control">
+              <span class="volume-icon">🔊</span>
+              <input type="range" id="volumeSlider" min="0" max="100" value="85" class="volume-slider" title="Master Volume">
+            </div>
+          </div>
+        </div>
+
+        <!-- 88-Key Piano Keyboard Frame -->
+        <div class="keyboard-container-wrap">
+          <div class="keyboard-viewport" id="keyboardViewport">
+            <div class="keyboard-rail" id="pianoKeyboard">
+              <!-- 88 Keys generated dynamically by app.js -->
+            </div>
+          </div>
+          <!-- Quick Octave Jump Navigation -->
+          <div class="octave-nav">
+            <span class="nav-label">Octaves:</span>
+            <button class="btn-octave" data-octave="0">A0</button>
+            <button class="btn-octave" data-octave="1">C1</button>
+            <button class="btn-octave" data-octave="2">C2</button>
+            <button class="btn-octave" data-octave="3">C3</button>
+            <button class="btn-octave active" data-octave="4">C4 (Middle)</button>
+            <button class="btn-octave" data-octave="5">C5</button>
+            <button class="btn-octave" data-octave="6">C6</button>
+            <button class="btn-octave" data-octave="7">C7-C8</button>
+            <button class="btn-octave-fit" id="btnFitAll">Fit All 88</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Song Catalog / Library Drawer -->
+      <aside class="catalog-drawer">
+        <div class="catalog-header">
+          <div class="catalog-header-top">
+            <h2 class="catalog-title">Song Catalog</h2>
+            <span class="badge-count" id="songCountBadge">18 songs</span>
+          </div>
+          <!-- Search & Filter Bar -->
+          <div class="search-wrap">
+            <input type="text" id="searchInput" placeholder="Search songs, artists, keys..." class="search-input">
+            <button id="searchClear" class="search-clear-btn" style="display:none;">✕</button>
+          </div>
+          <!-- Category Tabs -->
+          <div class="category-tabs" id="categoryTabs">
+            <button class="tab-btn active" data-cat="all">All</button>
+            <button class="tab-btn" data-cat="Pop">Pop</button>
+            <button class="tab-btn" data-cat="Classical">Classical</button>
+            <button class="tab-btn" data-cat="Soundtrack">Soundtrack</button>
+            <button class="tab-btn" data-cat="Rock / Indie">Indie & Rock</button>
+          </div>
+        </div>
+
+        <!-- Song Cards List -->
+        <div class="song-list" id="songList">
+          <!-- Dynamically populated from songs-manifest.json -->
+          <div class="catalog-loading">Loading 18 transcribed songs...</div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="footer-left">
+        <span>Crafted by <a href="https://github.com/AxmadjonTeacher" target="_blank">Axmadjon</a></span>
+        <span class="footer-sep">•</span>
+        <span>Studio Web Audio Synthesis Engine</span>
+        <span class="footer-sep">•</span>
+        <span>Zero latency • Full 88 keys</span>
+      </div>
+      <div class="footer-right">
+        <span>Shortcut: Press <strong>Space</strong> to Play/Pause, <strong>M</strong> for Middle C</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

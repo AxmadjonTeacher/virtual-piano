@@ -1,0 +1,200 @@
+[
+  {
+    "id": "golden",
+    "file": "golden_hour.json",
+    "title": "Golden Hour",
+    "composer": "JVKE",
+    "key": "E major",
+    "category": "Pop",
+    "sustain": true,
+    "durationSec": 207,
+    "noteCount": 2716
+  },
+  {
+    "id": "idea10",
+    "file": "idea_10.json",
+    "title": "Idea 10",
+    "composer": "Gibran Alcocer",
+    "key": "G minor",
+    "category": "Modern Classical",
+    "sustain": true,
+    "durationSec": 121,
+    "noteCount": 1076
+  },
+  {
+    "id": "solas",
+    "file": "solas.json",
+    "title": "Solas",
+    "composer": "Jamie Duffy",
+    "key": "E minor",
+    "category": "Modern Classical",
+    "sustain": true,
+    "durationSec": 122,
+    "noteCount": 808
+  },
+  {
+    "id": "blue",
+    "file": "blue.json",
+    "title": "Blue",
+    "composer": "Yung Kai",
+    "key": "E major",
+    "category": "Pop / Indie",
+    "sustain": true,
+    "durationSec": 105,
+    "noteCount": 744
+  },
+  {
+    "id": "amelie",
+    "file": "amelie.json",
+    "title": "Amélie | Comptine d'un autre été: l'Après-midi",
+    "composer": "Yann Tiersen",
+    "key": "E minor",
+    "category": "Soundtrack",
+    "sustain": true,
+    "durationSec": 122,
+    "noteCount": 945
+  },
+  {
+    "id": "nocturne",
+    "file": "chopin_nocturne.json",
+    "title": "Chopin - Nocturnes, Op. 9: No. 2 in E-flat major, Andante",
+    "composer": "Frédéric Chopin (performed by Domonkos Csabay)",
+    "key": "Eb major",
+    "category": "Classical",
+    "sustain": true,
+    "durationSec": 248,
+    "noteCount": 1242
+  },
+  {
+    "id": "succession",
+    "file": "succession.json",
+    "title": "Succession (Main Title Theme) - Official Studio Edition",
+    "composer": "Nicholas Britell",
+    "key": "C minor",
+    "category": "Soundtrack",
+    "sustain": true,
+    "durationSec": 89,
+    "noteCount": 263
+  },
+  {
+    "id": "still",
+    "file": "still_dre.json",
+    "title": "Still D.R.E. (Polished Master Recording Edition)",
+    "composer": "Dr. Dre feat. Snoop Dogg (prod. Dr. Dre & Scott Storch, 1999)",
+    "key": "A minor",
+    "category": "Hip-Hop",
+    "sustain": false,
+    "durationSec": 65,
+    "noteCount": 733
+  },
+  {
+    "id": "lovestory",
+    "file": "love_story.json",
+    "title": "Love Story",
+    "composer": "Indila",
+    "key": "Bb minor",
+    "category": "Pop",
+    "sustain": true,
+    "durationSec": 253,
+    "noteCount": 1655
+  },
+  {
+    "id": "luna",
+    "file": "hijo_de_la_luna.json",
+    "title": "Hijo de la Luna",
+    "composer": "Mecano (José María Cano)",
+    "key": "A minor",
+    "category": "Pop / Classical",
+    "sustain": true,
+    "durationSec": 268,
+    "noteCount": 1636
+  },
+  {
+    "id": "baby",
+    "file": "pretty_little_baby.json",
+    "title": "Pretty Little Baby",
+    "composer": "Connie Francis",
+    "key": "Db major",
+    "category": "Oldies / Pop",
+    "sustain": true,
+    "durationSec": 94,
+    "noteCount": 754
+  },
+  {
+    "id": "hotline",
+    "file": "hotline.json",
+    "title": "Hotline (Edit)",
+    "composer": "Billie Eilish",
+    "key": "A minor",
+    "category": "Alternative / Pop",
+    "sustain": true,
+    "durationSec": 94,
+    "noteCount": 329
+  },
+  {
+    "id": "face",
+    "file": "i_thought_i_saw_your_face_today.json",
+    "title": "I Thought I Saw Your Face Today",
+    "composer": "She & Him (Zooey Deschanel & M. Ward)",
+    "key": "G major",
+    "category": "Indie Pop",
+    "sustain": true,
+    "durationSec": 86,
+    "noteCount": 550
+  },
+  {
+    "id": "moment",
+    "file": "every_living_breathing_moment.json",
+    "title": "Every Living Breathing Moment",
+    "composer": "Grant Steller",
+    "key": "F major",
+    "category": "Soundtrack",
+    "sustain": true,
+    "durationSec": 101,
+    "noteCount": 431
+  },
+  {
+    "id": "paint",
+    "file": "paint_it_black.json",
+    "title": "Paint It, Black",
+    "composer": "The Rolling Stones (Jagger/Richards, 1966)",
+    "key": "E minor",
+    "category": "Rock",
+    "sustain": true,
+    "durationSec": 53,
+    "noteCount": 584
+  },
+  {
+    "id": "winter",
+    "file": "vivaldi_winter.json",
+    "title": "Winter (L'Inverno - Movement 1: Allegro non molto)",
+    "composer": "Antonio Vivaldi (The Four Seasons, Op. 8 No. 4)",
+    "key": "F minor",
+    "category": "Baroque",
+    "sustain": true,
+    "durationSec": 41,
+    "noteCount": 379
+  },
+  {
+    "id": "chopin",
+    "file": "chopin_etude.json",
+    "title": "Impromptu-Etude in C-sharp minor: \"L'Orage Romantique\"",
+    "composer": "In the style of Frédéric Chopin (Op. 66 & Op. 10 No. 4)",
+    "key": "C# minor",
+    "category": "Classical",
+    "sustain": true,
+    "durationSec": 58,
+    "noteCount": 290
+  },
+  {
+    "id": "elise",
+    "file": "fur_elise.json",
+    "title": "Für Elise (Bagatelle No. 25 in A minor)",
+    "composer": "Ludwig van Beethoven",
+    "key": "A minor",
+    "category": "Classical",
+    "sustain": true,
+    "durationSec": 14,
+    "noteCount": 59
+  }
+]

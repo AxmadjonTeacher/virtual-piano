@@ -1,0 +1,3872 @@
+{
+  "title": "Impromptu-Etude in C-sharp minor: \"L'Orage Romantique\"",
+  "composer": "In the style of Frédéric Chopin (Op. 66 & Op. 10 No. 4)",
+  "key": "C# minor",
+  "targetDurationSec": 60,
+  "events": [
+    {
+      "keys": [
+        "C#2",
+        "C#3"
+      ],
+      "dur": 865,
+      "wait": 399
+    },
+    {
+      "keys": [
+        "Ab3"
+      ],
+      "dur": 372,
+      "wait": 160
+    },
+    {
+      "keys": [
+        "C#4"
+      ],
+      "dur": 372,
+      "wait": 160
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 399,
+      "wait": 186
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 466,
+      "wait": 333
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 186,
+      "wait": 67
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 173,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 173,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 160,
+      "wait": 53
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 160,
+      "wait": 53
+    },
+    {
+      "keys": [
+        "C5"
+      ],
+      "dur": 160,
+      "wait": 53
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 532,
+      "wait": 399
+    },
+    {
+      "keys": [
+        "C#3",
+        "C#4"
+      ],
+      "dur": 665,
+      "wait": 266
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 266,
+      "wait": 106
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 266,
+      "wait": 106
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 293,
+      "wait": 120
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 333,
+      "wait": 133
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 466,
+      "wait": 333
+    },
+    {
+      "keys": [
+        "F#5"
+      ],
+      "dur": 160,
+      "wait": 53
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 146,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 133,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C5"
+      ],
+      "dur": 133,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#2",
+        "C#3"
+      ],
+      "dur": 399,
+      "wait": 106
+    },
+    {
+      "keys": [
+        "C#4"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Ab2",
+        "Ab3"
+      ],
+      "dur": 399,
+      "wait": 106
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "B4"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "F#5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "B5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "B4"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "F#5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "B5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Eb6"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "B5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 133,
+      "wait": 47
+    },
+    {
+      "keys": [
+        "A2",
+        "A3"
+      ],
+      "dur": 399,
+      "wait": 106
+    },
+    {
+      "keys": [
+        "A4"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "A5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "A5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "A5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "A6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "A5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Ab2",
+        "Ab3"
+      ],
+      "dur": 399,
+      "wait": 106
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "F#5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#2",
+        "C#3"
+      ],
+      "dur": 426,
+      "wait": 106
+    },
+    {
+      "keys": [
+        "C#4"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Ab6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#2",
+        "C#3"
+      ],
+      "dur": 372,
+      "wait": 93
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "B5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "A5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "B4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "A4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "Eb4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "C#4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "C4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#2",
+        "F#3"
+      ],
+      "dur": 372,
+      "wait": 93
+    },
+    {
+      "keys": [
+        "F#4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "A4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "A5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#6"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "A6"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#6"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "A5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "A4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "Eb4"
+      ],
+      "dur": 113,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "C3",
+        "Eb3"
+      ],
+      "dur": 372,
+      "wait": 93
+    },
+    {
+      "keys": [
+        "C4"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "Eb4"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#4"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "A4"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "C5"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#5"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "A5"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "C6"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "Eb6"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#6"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "A6"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "Ab6"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "F#6"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "Eb6"
+      ],
+      "dur": 106,
+      "wait": 33
+    },
+    {
+      "keys": [
+        "C#2",
+        "C#3"
+      ],
+      "dur": 532,
+      "wait": 200
+    },
+    {
+      "keys": [
+        "C#3",
+        "Ab5"
+      ],
+      "dur": 665,
+      "wait": 133
+    },
+    {
+      "keys": [
+        "C#4"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "A2",
+        "A5"
+      ],
+      "dur": 665,
+      "wait": 133
+    },
+    {
+      "keys": [
+        "C#4"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "F#4"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "A4"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "B2",
+        "B5"
+      ],
+      "dur": 665,
+      "wait": 133
+    },
+    {
+      "keys": [
+        "Eb4"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "F#4"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "B4"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 120,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#3",
+        "C#6"
+      ],
+      "dur": 732,
+      "wait": 160
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 126,
+      "wait": 40
+    },
+    {
+      "keys": [
+        "Eb6"
+      ],
+      "dur": 213,
+      "wait": 67
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 213,
+      "wait": 67
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "Eb6"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "D6"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "C6"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "B5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "Bb5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "A5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "G5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "F#5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "F5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "D5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "C5"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "B4"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "Bb4"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "A4"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "F#4"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "Eb4"
+      ],
+      "dur": 93,
+      "wait": 27
+    },
+    {
+      "keys": [
+        "C#2",
+        "C#3"
+      ],
+      "dur": 466,
+      "wait": 120
+    },
+    {
+      "keys": [
+        "C#4"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "Ab6"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 106,
+      "wait": 29
+    },
+    {
+      "keys": [
+        "C#2"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "Ab2"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "C#3"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "E3"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "Ab3"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "C#4"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "Ab6"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "C7"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "C7"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "Ab6"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "E6"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "C#6"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "Ab5"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "C#5"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "C#4"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "Ab3"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "E3"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "C#3"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "Ab2"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "C#2"
+      ],
+      "dur": 93,
+      "wait": 24
+    },
+    {
+      "keys": [
+        "D2",
+        "D3",
+        "F#4",
+        "A4",
+        "D5"
+      ],
+      "dur": 732,
+      "wait": 266
+    },
+    {
+      "keys": [
+        "Ab2",
+        "Ab3",
+        "C4",
+        "Eb4",
+        "F#4",
+        "A4"
+      ],
+      "dur": 865,
+      "wait": 333
+    },
+    {
+      "keys": [
+        "C#2",
+        "C#3"
+      ],
+      "dur": 732,
+      "wait": 239
+    },
+    {
+      "keys": [
+        "C#3",
+        "Ab3",
+        "C#4"
+      ],
+      "dur": 732,
+      "wait": 239
+    },
+    {
+      "keys": [
+        "C#4",
+        "E4",
+        "Ab4",
+        "C#5",
+        "E5",
+        "C#6"
+      ],
+      "dur": 3325,
+      "wait": 798
+    }
+  ],
+  "notes": [
+    {
+      "midi": 37,
+      "note": "C#2",
+      "startMs": 0,
+      "durMs": 865,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 0,
+      "durMs": 865,
+      "vel": 85
+    },
+    {
+      "midi": 56,
+      "note": "Ab3",
+      "startMs": 1264,
+      "durMs": 372,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 1796,
+      "durMs": 372,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 2328,
+      "durMs": 399,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 2913,
+      "durMs": 466,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 3712,
+      "durMs": 186,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 3965,
+      "durMs": 173,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 4198,
+      "durMs": 173,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 4431,
+      "durMs": 160,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 4644,
+      "durMs": 160,
+      "vel": 85
+    },
+    {
+      "midi": 72,
+      "note": "C5",
+      "startMs": 4857,
+      "durMs": 160,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 5070,
+      "durMs": 532,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 6001,
+      "durMs": 665,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 6001,
+      "durMs": 665,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 6932,
+      "durMs": 266,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 7304,
+      "durMs": 266,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 7676,
+      "durMs": 293,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 8089,
+      "durMs": 333,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 8555,
+      "durMs": 466,
+      "vel": 85
+    },
+    {
+      "midi": 78,
+      "note": "F#5",
+      "startMs": 9354,
+      "durMs": 160,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 9567,
+      "durMs": 146,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 9760,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 72,
+      "note": "C5",
+      "startMs": 9933,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 37,
+      "note": "C#2",
+      "startMs": 10106,
+      "durMs": 399,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 10106,
+      "durMs": 399,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 10611,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 10791,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 10971,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 11151,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 11331,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 11511,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 11691,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 11871,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 12051,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 12231,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 12411,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 12591,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 12771,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 12951,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 13131,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 13311,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 44,
+      "note": "Ab2",
+      "startMs": 13491,
+      "durMs": 399,
+      "vel": 85
+    },
+    {
+      "midi": 56,
+      "note": "Ab3",
+      "startMs": 13491,
+      "durMs": 399,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 13996,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 71,
+      "note": "B4",
+      "startMs": 14176,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 14356,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 78,
+      "note": "F#5",
+      "startMs": 14536,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 14716,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 83,
+      "note": "B5",
+      "startMs": 14896,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 15076,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 15256,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 71,
+      "note": "B4",
+      "startMs": 15436,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 15616,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 78,
+      "note": "F#5",
+      "startMs": 15796,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 15976,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 83,
+      "note": "B5",
+      "startMs": 16156,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 87,
+      "note": "Eb6",
+      "startMs": 16336,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 83,
+      "note": "B5",
+      "startMs": 16516,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 16696,
+      "durMs": 133,
+      "vel": 85
+    },
+    {
+      "midi": 45,
+      "note": "A2",
+      "startMs": 16876,
+      "durMs": 399,
+      "vel": 85
+    },
+    {
+      "midi": 57,
+      "note": "A3",
+      "startMs": 16876,
+      "durMs": 399,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 17381,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 17547,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 17713,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 81,
+      "note": "A5",
+      "startMs": 17879,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 18045,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 18211,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 18377,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 81,
+      "note": "A5",
+      "startMs": 18543,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 18709,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 81,
+      "note": "A5",
+      "startMs": 18875,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 19041,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 19207,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 93,
+      "note": "A6",
+      "startMs": 19373,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 19539,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 19705,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 81,
+      "note": "A5",
+      "startMs": 19871,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 44,
+      "note": "Ab2",
+      "startMs": 20037,
+      "durMs": 399,
+      "vel": 85
+    },
+    {
+      "midi": 56,
+      "note": "Ab3",
+      "startMs": 20037,
+      "durMs": 399,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 20542,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 78,
+      "note": "F#5",
+      "startMs": 20702,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 20862,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 21022,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 21182,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 72,
+      "note": "C5",
+      "startMs": 21342,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 21502,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 21662,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 21822,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 21982,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 22142,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 72,
+      "note": "C5",
+      "startMs": 22302,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 22462,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 22622,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 72,
+      "note": "C5",
+      "startMs": 22782,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 22942,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 37,
+      "note": "C#2",
+      "startMs": 23102,
+      "durMs": 426,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 23102,
+      "durMs": 426,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 23634,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 23800,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 23966,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 24132,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 24298,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 24464,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 24630,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 24796,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 92,
+      "note": "Ab6",
+      "startMs": 24962,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 25128,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 25294,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 25460,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 25626,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 25792,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 25958,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 26124,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 37,
+      "note": "C#2",
+      "startMs": 26290,
+      "durMs": 372,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 26290,
+      "durMs": 372,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 26755,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 83,
+      "note": "B5",
+      "startMs": 26901,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 81,
+      "note": "A5",
+      "startMs": 27047,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 27193,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 78,
+      "note": "F#5",
+      "startMs": 27339,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 27485,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 27631,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 27777,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 71,
+      "note": "B4",
+      "startMs": 27923,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 28069,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 28215,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 66,
+      "note": "F#4",
+      "startMs": 28361,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 28507,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 63,
+      "note": "Eb4",
+      "startMs": 28653,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 28799,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 60,
+      "note": "C4",
+      "startMs": 28945,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 42,
+      "note": "F#2",
+      "startMs": 29091,
+      "durMs": 372,
+      "vel": 85
+    },
+    {
+      "midi": 54,
+      "note": "F#3",
+      "startMs": 29091,
+      "durMs": 372,
+      "vel": 85
+    },
+    {
+      "midi": 66,
+      "note": "F#4",
+      "startMs": 29556,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 29702,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 29848,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 78,
+      "note": "F#5",
+      "startMs": 29994,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 81,
+      "note": "A5",
+      "startMs": 30140,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 30286,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 90,
+      "note": "F#6",
+      "startMs": 30432,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 93,
+      "note": "A6",
+      "startMs": 30578,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 90,
+      "note": "F#6",
+      "startMs": 30724,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 30870,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 81,
+      "note": "A5",
+      "startMs": 31016,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 78,
+      "note": "F#5",
+      "startMs": 31162,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 31308,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 31454,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 66,
+      "note": "F#4",
+      "startMs": 31600,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 63,
+      "note": "Eb4",
+      "startMs": 31746,
+      "durMs": 113,
+      "vel": 85
+    },
+    {
+      "midi": 48,
+      "note": "C3",
+      "startMs": 31892,
+      "durMs": 372,
+      "vel": 85
+    },
+    {
+      "midi": 51,
+      "note": "Eb3",
+      "startMs": 31892,
+      "durMs": 372,
+      "vel": 85
+    },
+    {
+      "midi": 60,
+      "note": "C4",
+      "startMs": 32357,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 63,
+      "note": "Eb4",
+      "startMs": 32496,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 66,
+      "note": "F#4",
+      "startMs": 32635,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 32774,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 72,
+      "note": "C5",
+      "startMs": 32913,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 33052,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 78,
+      "note": "F#5",
+      "startMs": 33191,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 81,
+      "note": "A5",
+      "startMs": 33330,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 84,
+      "note": "C6",
+      "startMs": 33469,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 87,
+      "note": "Eb6",
+      "startMs": 33608,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 90,
+      "note": "F#6",
+      "startMs": 33747,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 93,
+      "note": "A6",
+      "startMs": 33886,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 92,
+      "note": "Ab6",
+      "startMs": 34025,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 90,
+      "note": "F#6",
+      "startMs": 34164,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 34303,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 87,
+      "note": "Eb6",
+      "startMs": 34442,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 37,
+      "note": "C#2",
+      "startMs": 34581,
+      "durMs": 532,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 34581,
+      "durMs": 532,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 35313,
+      "durMs": 665,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 35313,
+      "durMs": 665,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 36111,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 36271,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 36431,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 36591,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 45,
+      "note": "A2",
+      "startMs": 36751,
+      "durMs": 665,
+      "vel": 85
+    },
+    {
+      "midi": 81,
+      "note": "A5",
+      "startMs": 36751,
+      "durMs": 665,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 37549,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 66,
+      "note": "F#4",
+      "startMs": 37709,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 37869,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 38029,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 47,
+      "note": "B2",
+      "startMs": 38189,
+      "durMs": 665,
+      "vel": 85
+    },
+    {
+      "midi": 83,
+      "note": "B5",
+      "startMs": 38189,
+      "durMs": 665,
+      "vel": 85
+    },
+    {
+      "midi": 63,
+      "note": "Eb4",
+      "startMs": 38987,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 66,
+      "note": "F#4",
+      "startMs": 39147,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 71,
+      "note": "B4",
+      "startMs": 39307,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 39467,
+      "durMs": 120,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 39627,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 39627,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 40519,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 40685,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 40851,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 41017,
+      "durMs": 126,
+      "vel": 85
+    },
+    {
+      "midi": 87,
+      "note": "Eb6",
+      "startMs": 41183,
+      "durMs": 213,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 41463,
+      "durMs": 213,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 41743,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 87,
+      "note": "Eb6",
+      "startMs": 41863,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 86,
+      "note": "D6",
+      "startMs": 41983,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 42103,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 84,
+      "note": "C6",
+      "startMs": 42223,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 83,
+      "note": "B5",
+      "startMs": 42343,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 82,
+      "note": "Bb5",
+      "startMs": 42463,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 81,
+      "note": "A5",
+      "startMs": 42583,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 42703,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 79,
+      "note": "G5",
+      "startMs": 42823,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 78,
+      "note": "F#5",
+      "startMs": 42943,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 77,
+      "note": "F5",
+      "startMs": 43063,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 43183,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 43303,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 74,
+      "note": "D5",
+      "startMs": 43423,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 43543,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 72,
+      "note": "C5",
+      "startMs": 43663,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 71,
+      "note": "B4",
+      "startMs": 43783,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 70,
+      "note": "Bb4",
+      "startMs": 43903,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 44023,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 44143,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 66,
+      "note": "F#4",
+      "startMs": 44263,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 44383,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 63,
+      "note": "Eb4",
+      "startMs": 44503,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 37,
+      "note": "C#2",
+      "startMs": 44623,
+      "durMs": 466,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 44623,
+      "durMs": 466,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 45209,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 45344,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 45479,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 45614,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 45749,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 45884,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 46019,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 46154,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 92,
+      "note": "Ab6",
+      "startMs": 46289,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 46424,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 46559,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 46694,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 46829,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 46964,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 47099,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 47234,
+      "durMs": 106,
+      "vel": 85
+    },
+    {
+      "midi": 37,
+      "note": "C#2",
+      "startMs": 47369,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 44,
+      "note": "Ab2",
+      "startMs": 47486,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 47603,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 52,
+      "note": "E3",
+      "startMs": 47720,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 56,
+      "note": "Ab3",
+      "startMs": 47837,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 47954,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 48071,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 48188,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 48305,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 48422,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 48539,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 48656,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 48773,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 92,
+      "note": "Ab6",
+      "startMs": 48890,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 96,
+      "note": "C7",
+      "startMs": 49007,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 96,
+      "note": "C7",
+      "startMs": 49124,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 92,
+      "note": "Ab6",
+      "startMs": 49241,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 88,
+      "note": "E6",
+      "startMs": 49358,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 49475,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 80,
+      "note": "Ab5",
+      "startMs": 49592,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 49709,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 49826,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 49943,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 50060,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 50177,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 56,
+      "note": "Ab3",
+      "startMs": 50294,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 52,
+      "note": "E3",
+      "startMs": 50411,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 50528,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 44,
+      "note": "Ab2",
+      "startMs": 50645,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 37,
+      "note": "C#2",
+      "startMs": 50762,
+      "durMs": 93,
+      "vel": 85
+    },
+    {
+      "midi": 38,
+      "note": "D2",
+      "startMs": 50879,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 50,
+      "note": "D3",
+      "startMs": 50879,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 66,
+      "note": "F#4",
+      "startMs": 50879,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 50879,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 74,
+      "note": "D5",
+      "startMs": 50879,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 44,
+      "note": "Ab2",
+      "startMs": 51877,
+      "durMs": 865,
+      "vel": 85
+    },
+    {
+      "midi": 56,
+      "note": "Ab3",
+      "startMs": 51877,
+      "durMs": 865,
+      "vel": 85
+    },
+    {
+      "midi": 60,
+      "note": "C4",
+      "startMs": 51877,
+      "durMs": 865,
+      "vel": 85
+    },
+    {
+      "midi": 63,
+      "note": "Eb4",
+      "startMs": 51877,
+      "durMs": 865,
+      "vel": 85
+    },
+    {
+      "midi": 66,
+      "note": "F#4",
+      "startMs": 51877,
+      "durMs": 865,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 51877,
+      "durMs": 865,
+      "vel": 85
+    },
+    {
+      "midi": 37,
+      "note": "C#2",
+      "startMs": 53075,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 53075,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 49,
+      "note": "C#3",
+      "startMs": 54046,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 56,
+      "note": "Ab3",
+      "startMs": 54046,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 54046,
+      "durMs": 732,
+      "vel": 85
+    },
+    {
+      "midi": 61,
+      "note": "C#4",
+      "startMs": 55017,
+      "durMs": 3325,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 55017,
+      "durMs": 3325,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 55017,
+      "durMs": 3325,
+      "vel": 85
+    },
+    {
+      "midi": 73,
+      "note": "C#5",
+      "startMs": 55017,
+      "durMs": 3325,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 55017,
+      "durMs": 3325,
+      "vel": 85
+    },
+    {
+      "midi": 85,
+      "note": "C#6",
+      "startMs": 55017,
+      "durMs": 3325,
+      "vel": 85
+    }
+  ]
+}

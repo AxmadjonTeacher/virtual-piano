@@ -8,6 +8,20 @@
 
 ---
 
+## 🌐 Live Web Player (Zero-Install!)
+
+Play right in your browser on any phone, tablet, or computer with **no Node.js or tools needed**:
+
+👉 **[https://axmadjonteacher.github.io/virtual-piano/](https://axmadjonteacher.github.io/virtual-piano/)**
+
+- 🎹 **Full 88-Key Interactive Piano**: Realistic ivory/ebony keys with lighting ripples.
+- 🔊 **Studio Web Audio Synthesizer**: Realistic acoustic piano harmonics, velocity, and sustain.
+- 🌈 **Synthesia Visualizer**: Falling notes canvas synchronized with piano strikes.
+- 🎼 **All 18 Songs**: Filter by genre, adjust playback tempo (0.5x - 2.0x), and scrub anywhere.
+- ⌨️ **Interactive Play**: Play using your mouse, touchscreen, or computer keyboard.
+
+---
+
 ## ✨ Features
 
 - 🎹 **Full 88-Key Keyboard Support**: Automatically expands layout to Full and sets visible keys to Max (88 keys).

@@ -1,0 +1,800 @@
+{
+  "title": "Für Elise (Bagatelle No. 25 in A minor)",
+  "composer": "Ludwig van Beethoven",
+  "key": "A minor",
+  "targetDurationSec": 25,
+  "events": [
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "B4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "D5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "C5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "A2",
+        "A4"
+      ],
+      "dur": 350,
+      "wait": 100
+    },
+    {
+      "keys": [
+        "E3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "A3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "C4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "A4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E2",
+        "B4"
+      ],
+      "dur": 350,
+      "wait": 100
+    },
+    {
+      "keys": [
+        "E3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "Ab3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "B4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "A2",
+        "C5"
+      ],
+      "dur": 350,
+      "wait": 100
+    },
+    {
+      "keys": [
+        "E3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "A3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "Eb5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "B4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "D5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "C5"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "A2",
+        "A4"
+      ],
+      "dur": 350,
+      "wait": 100
+    },
+    {
+      "keys": [
+        "E3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "A3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "C4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "A4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E2",
+        "B4"
+      ],
+      "dur": 350,
+      "wait": 100
+    },
+    {
+      "keys": [
+        "E3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "Ab3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "Ab4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "B4"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "A2",
+        "C5"
+      ],
+      "dur": 350,
+      "wait": 100
+    },
+    {
+      "keys": [
+        "E3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "A3"
+      ],
+      "dur": 180,
+      "wait": 60
+    },
+    {
+      "keys": [
+        "E4"
+      ],
+      "dur": 180,
+      "wait": 60
+    }
+  ],
+  "notes": [
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 0,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 240,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 480,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 720,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 960,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 71,
+      "note": "B4",
+      "startMs": 1200,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 74,
+      "note": "D5",
+      "startMs": 1440,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 72,
+      "note": "C5",
+      "startMs": 1680,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 45,
+      "note": "A2",
+      "startMs": 1920,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 1920,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 52,
+      "note": "E3",
+      "startMs": 2370,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 57,
+      "note": "A3",
+      "startMs": 2610,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 60,
+      "note": "C4",
+      "startMs": 2850,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 3090,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 3330,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 40,
+      "note": "E2",
+      "startMs": 3570,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 71,
+      "note": "B4",
+      "startMs": 3570,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 52,
+      "note": "E3",
+      "startMs": 4020,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 56,
+      "note": "Ab3",
+      "startMs": 4260,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 4500,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 4740,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 71,
+      "note": "B4",
+      "startMs": 4980,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 45,
+      "note": "A2",
+      "startMs": 5220,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 72,
+      "note": "C5",
+      "startMs": 5220,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 52,
+      "note": "E3",
+      "startMs": 5670,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 57,
+      "note": "A3",
+      "startMs": 5910,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 6150,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 6390,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 6630,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 6870,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 7110,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 7350,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 7590,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 7830,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 8070,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 75,
+      "note": "Eb5",
+      "startMs": 8310,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 76,
+      "note": "E5",
+      "startMs": 8550,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 71,
+      "note": "B4",
+      "startMs": 8790,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 74,
+      "note": "D5",
+      "startMs": 9030,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 72,
+      "note": "C5",
+      "startMs": 9270,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 45,
+      "note": "A2",
+      "startMs": 9510,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 9510,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 52,
+      "note": "E3",
+      "startMs": 9960,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 57,
+      "note": "A3",
+      "startMs": 10200,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 60,
+      "note": "C4",
+      "startMs": 10440,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 10680,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 69,
+      "note": "A4",
+      "startMs": 10920,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 40,
+      "note": "E2",
+      "startMs": 11160,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 71,
+      "note": "B4",
+      "startMs": 11160,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 52,
+      "note": "E3",
+      "startMs": 11610,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 56,
+      "note": "Ab3",
+      "startMs": 11850,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 12090,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 68,
+      "note": "Ab4",
+      "startMs": 12330,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 71,
+      "note": "B4",
+      "startMs": 12570,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 45,
+      "note": "A2",
+      "startMs": 12810,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 72,
+      "note": "C5",
+      "startMs": 12810,
+      "durMs": 350,
+      "vel": 85
+    },
+    {
+      "midi": 52,
+      "note": "E3",
+      "startMs": 13260,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 57,
+      "note": "A3",
+      "startMs": 13500,
+      "durMs": 180,
+      "vel": 85
+    },
+    {
+      "midi": 64,
+      "note": "E4",
+      "startMs": 13740,
+      "durMs": 180,
+      "vel": 85
+    }
+  ]
+}
