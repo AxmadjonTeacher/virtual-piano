@@ -8,6 +8,7 @@
 const puppeteer = require('puppeteer-core');
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 const { execSync } = require('child_process');
 
 // 88-Key Note-to-Keyboard Mapping (Fallback & Reverse Lookup)
@@ -154,6 +155,62 @@ function listSongs() {
   console.log('  node play.js <alias>          (when inside this directory)\n');
 }
 
+function findChrome() {
+  if (process.env.CHROME_PATH && fs.existsSync(process.env.CHROME_PATH)) {
+    return process.env.CHROME_PATH;
+  }
+
+  const platform = process.platform;
+  let candidates = [];
+
+  if (platform === 'darwin') {
+    candidates = [
+      '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+      path.join(process.env.HOME || '', 'Applications', 'Google Chrome.app', 'Contents', 'MacOS', 'Google Chrome'),
+      '/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary',
+      '/Applications/Chromium.app/Contents/MacOS/Chromium',
+      '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge',
+      '/Applications/Brave Browser.app/Contents/MacOS/Brave Browser'
+    ];
+  } else if (platform === 'win32') {
+    const prefixes = [
+      process.env.LOCALAPPDATA,
+      process.env.PROGRAMFILES,
+      process.env['PROGRAMFILES(X86)']
+    ].filter(Boolean);
+
+    for (const prefix of prefixes) {
+      candidates.push(
+        path.join(prefix, 'Google', 'Chrome', 'Application', 'chrome.exe'),
+        path.join(prefix, 'Microsoft', 'Edge', 'Application', 'msedge.exe'),
+        path.join(prefix, 'BraveSoftware', 'Brave-Browser', 'Application', 'brave.exe')
+      );
+    }
+  } else {
+    candidates = [
+      '/usr/bin/google-chrome',
+      '/usr/bin/google-chrome-stable',
+      '/usr/bin/chromium',
+      '/usr/bin/chromium-browser',
+      '/snap/bin/chromium',
+      '/usr/bin/microsoft-edge',
+      '/usr/bin/brave-browser'
+    ];
+  }
+
+  for (const candidate of candidates) {
+    if (candidate && fs.existsSync(candidate)) {
+      return candidate;
+    }
+  }
+
+  return platform === 'darwin'
+    ? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+    : (platform === 'win32' ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' : '/usr/bin/google-chrome');
+}
+
+const PIANO_PROFILE_DIR = path.join(os.tmpdir(), 'chrome-piano-profile');
+
 function parseArgs() {
   const args = process.argv.slice(2);
 
@@ -168,7 +225,7 @@ function parseArgs() {
     tempo: 1.0,
     headless: false,
     sustain: true,
-    chromePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+    chromePath: findChrome()
   };
 
   for (let i = 0; i < args.length; i++) {
@@ -178,6 +235,8 @@ function parseArgs() {
       options.file = args[++i];
     } else if ((args[i] === '--tempo' || args[i] === '-t') && args[i + 1]) {
       options.tempo = parseFloat(args[++i]) || 1.0;
+    } else if ((args[i] === '--chrome' || args[i] === '-c') && args[i + 1]) {
+      options.chromePath = args[++i];
     } else if (args[i] === '--headless') {
       options.headless = args[i + 1] === 'true';
       if (args[i + 1] === 'true' || args[i + 1] === 'false') i++;
@@ -197,6 +256,7 @@ Options:
   --list, -l          List all available songs and shortcuts
   --file, -f <path>   Path to custom song JSON file
   --tempo, -t <float> Tempo multiplier (default: 1.0; e.g. 1.2 for faster, 0.8 for slower)
+  --chrome, -c <path> Custom path to Chrome/Chromium executable
   --headless <bool>   Run in headless mode (default: false)
   --sustain <bool>    Enable sustain pedal (default: true)
   --help, -h          Show this help message
@@ -282,8 +342,17 @@ async function main() {
   try {
     // Clean up any stale or orphaned piano browser instances and lock files
     try {
-      execSync('pkill -9 -f "chrome-piano-profile" 2>/dev/null || true');
-      execSync('rm -f /tmp/chrome-piano-profile/Singleton* 2>/dev/null || true');
+      if (process.platform !== 'win32') {
+        execSync('pkill -9 -f "chrome-piano-profile" 2>/dev/null || true');
+      }
+      if (fs.existsSync(PIANO_PROFILE_DIR)) {
+        const files = fs.readdirSync(PIANO_PROFILE_DIR);
+        for (const f of files) {
+          if (f.startsWith('Singleton')) {
+            try { fs.unlinkSync(path.join(PIANO_PROFILE_DIR, f)); } catch (_) {}
+          }
+        }
+      }
       await new Promise(r => setTimeout(r, 200));
     } catch (_) {}
 
@@ -294,7 +363,7 @@ async function main() {
       defaultViewport: null,
       args: [
         '--start-maximized',
-        '--user-data-dir=/tmp/chrome-piano-profile',
+        `--user-data-dir=${PIANO_PROFILE_DIR}`,
         '--autoplay-policy=no-user-gesture-required'
       ]
     });
@@ -305,7 +374,9 @@ async function main() {
         if (browser) await browser.close();
       } catch (_) {}
       try {
-        execSync('pkill -9 -f "chrome-piano-profile" 2>/dev/null || true');
+        if (process.platform !== 'win32') {
+          execSync('pkill -9 -f "chrome-piano-profile" 2>/dev/null || true');
+        }
       } catch (_) {}
       process.exit(0);
     };
@@ -314,7 +385,7 @@ async function main() {
 
     const page = (await browser.pages())[0] || await browser.newPage();
 
-    if (!options.headless) {
+    if (!options.headless && process.platform === 'darwin') {
       try {
         execSync('osascript -e \'tell application "Google Chrome" to activate\'');
       } catch (_) {}
