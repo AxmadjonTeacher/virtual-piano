@@ -61,16 +61,16 @@ virtual-piano-player/
 
 ## 🌐 Public Distribution & Releases
 
-- **NPM Package**: [`virtual-piano-player`](https://www.npmjs.com/package/virtual-piano-player) (v1.0.0 live)
+- **NPM Package**: [`virtual-piano-by-axmadjon`](https://www.npmjs.com/package/virtual-piano-by-axmadjon)
 - **GitHub Repository**: [https://github.com/AxmadjonTeacher/virtual-piano](https://github.com/AxmadjonTeacher/virtual-piano)
-- **Global Binaries**: `piano`, `virtual-piano`
+- **Global Binaries**: `piano`, `virtual-piano`, `virtual-piano-by-axmadjon`
 
 ### 📦 Summary of Future Releases
 
 Whenever you add new songs or tweak code, just run:
 
   cd ~/.agents/skills/virtual-piano-player
-  npm version patch          # Increments 1.0.0 -> 1.0.1 and tags git
+  npm version patch          # Increments version and tags git
   git push origin main --tags
   npm publish
 
@@ -142,10 +142,10 @@ piano --file /path/to/my_song.json
 
 ### 3. Instant Zero-Install Execution (NPX):
 ```bash
-npx virtual-piano-player golden
-npx virtual-piano-player solas
-npx virtual-piano-player idea10
-npx virtual-piano-player amelie
+npx virtual-piano-by-axmadjon golden
+npx virtual-piano-by-axmadjon solas
+npx virtual-piano-by-axmadjon idea10
+npx virtual-piano-by-axmadjon amelie
 ```
 
 ---

@@ -1,4 +1,4 @@
-# 🎹 Virtual Piano Player
+# 🎹 Virtual Piano by Axmadjon
 
 > Autonomous browser-controlled virtual piano player with 88 visible keys, sustain pedal resonance, and studio-grade Web Audio synthesis. Designed as both a standalone CLI and an AI agent skill for **Antigravity**.
 
@@ -12,7 +12,7 @@
 
 - 🎹 **Full 88-Key Keyboard Support**: Automatically expands layout to Full and sets visible keys to Max (88 keys).
 - 🔊 **Studio Direct Native Audio Bridge**: Bypasses OS keyboard input lag by connecting directly into the underlying Web Audio synthesis engine with visual key glow feedback.
-- 🎼 **Curated Song Library**: Includes masterpieces by Chopin, Yann Tiersen, Beethoven, Vivaldi, Nicholas Britell, and Dr. Dre.
+- 🎼 **Curated Song Library**: Includes masterpieces by Chopin, Yann Tiersen, JVKE, Gibran Alcocer, Jamie Duffy, Yung Kai, Indila, Mecano, Nicholas Britell, and Dr. Dre.
 - ⚡ **Instant Execution**: Run immediately via `npx`, install globally via `npm`, or use as an AI agent skill in Antigravity.
 - 🛡️ **Auto-Healing & Recovery**: Pre-flight singleton lock cleanup and signal traps ensure smooth playback with zero orphaned browser processes.
 
@@ -24,27 +24,30 @@
 Play any song instantly without manual installation:
 
 ```bash
-npx virtual-piano-player amelie
+npx virtual-piano-by-axmadjon golden
 # or
-npx virtual-piano-player nocturne
+npx virtual-piano-by-axmadjon solas
+# or
+npx virtual-piano-by-axmadjon amelie
 ```
 
 ---
 
 ### 2. Global CLI Installation
-Install globally to get access to the `piano` and `virtual-piano` commands:
+Install globally to get access to the `piano`, `virtual-piano`, and `virtual-piano-by-axmadjon` commands:
 
 ```bash
-npm install -g virtual-piano-player
+npm install -g virtual-piano-by-axmadjon
 
 # View catalog
 piano
 
 # Play songs
+piano golden
+piano solas
+piano idea10
 piano amelie
 piano nocturne
-piano succession
-piano still
 ```
 
 ---
@@ -121,7 +124,7 @@ piano --file ./my_composition.json
 You can also use Virtual Piano Player directly within your own Node.js scripts:
 
 ```javascript
-const { play, listSongs, NOTE_MAP, noteToMidi } = require('virtual-piano-player');
+const { play, listSongs, NOTE_MAP, noteToMidi } = require('virtual-piano-by-axmadjon');
 
 // Display catalog
 listSongs();
@@ -149,10 +152,10 @@ npm link
 
 # Test CLI commands globally
 piano --list
-piano elise --headless true
+piano golden --headless true
 
 # Unlink when finished
-npm unlink -g virtual-piano-player
+npm unlink -g virtual-piano-by-axmadjon
 ```
 
 ---
