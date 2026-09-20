@@ -25,8 +25,14 @@ Activate this skill whenever the user:
 virtual-piano-player/
 ├── bin/
 │   └── cli.js                    # Executable CLI binary (piano, virtual-piano, npx runner)
+├── docs/                         # GitHub Pages zero-install Web Player
+│   ├── index.html                # Modern 88-key web player with Synthesia visualizer
+│   ├── style.css                 # Dark studio theme, 3D keys & glassmorphism
+│   ├── app.js                    # Web Audio synth engine, falling notes canvas & player
+│   ├── songs-manifest.json       # Metadata catalog for all 18 songs
+│   └── songs/                    # Normalized JSON song files for web player
 ├── scripts/
-│   ├── play.js                   # Master playback engine, audio bridge & lock manager
+│   ├── play.js                   # Master playback engine, cross-platform Chrome & audio bridge
 │   ├── list.sh                   # In-directory bash catalog runner
 │   └── songs/                    # Curated library of high-precision song JSONs
 │       ├── golden_hour.json      # JVKE's Golden Hour (unabridged cascading piano ~207s)
@@ -40,7 +46,7 @@ virtual-piano-player/
 │       ├── i_thought_i_saw_your_face_today.json # She & Him's 60s folk swing ~86s
 │       ├── every_living_breathing_moment.json # Grant Steller's cinematic theme ~101s
 │       ├── chopin_nocturne.json  # Chopin's Nocturne Op. 9 No. 2 (Csabay Domonkos perf. ~248s)
-│       ├── chopin_etude.json     # 60s Fast Chopin Impromptu-Etude in C# minor
+│       ├── chopin_etude.json     # Fast Chopin Impromptu-Etude in C# minor
 │       ├── vivaldi_winter.json   # Vivaldi's Winter (L'Inverno - Allegro non molto)
 │       ├── paint_it_black.json   # The Rolling Stones' Paint It, Black
 │       ├── still_dre.json        # Dr. Dre & Snoop Dogg's Still D.R.E.
@@ -48,6 +54,7 @@ virtual-piano-player/
 │       ├── amelie.json           # Yann Tiersen's Comptine d'un autre été (Amélie)
 │       └── fur_elise.json        # Beethoven's Für Elise theme
 ├── index.js                      # Programmatic Node.js exports (play, listSongs, loadSong)
+├── index.html                    # Root redirect to docs/ for GitHub Pages
 ├── package.json                  # NPM manifest with bin mappings, files whitelist & dependencies
 ├── package-lock.json             # Exact dependency lockfile (puppeteer-core)
 ├── SKILL.md                      # Agent skill instructions & key mappings
@@ -218,10 +225,10 @@ OnlinePianist maps 5 full octaves (C2 through C7) directly to standard computer 
 
 ## Technical Architecture & Automation Checklist
 
-1. **Launch Google Chrome**: Uses `puppeteer-core` pointing to `/Applications/Google Chrome.app/Contents/MacOS/Google Chrome` with `--start-maximized` and `--autoplay-policy=no-user-gesture-required`.
-2. **Pre-flight Lock Cleanup & Auto-Recovery**: Prior to launching, `play.js` terminates orphaned `chrome-piano-profile` processes (`pkill -9 -f "chrome-piano-profile"`) and removes stale `/tmp/chrome-piano-profile/Singleton*` lock symlinks, preventing browser startup errors.
+1. **Cross-Platform Chrome Auto-Discovery**: Uses `puppeteer-core` with automatic executable discovery across macOS (`/Applications/Google Chrome.app`, `~/Applications/...`, Edge, Brave, Chromium), Windows (`%LOCALAPPDATA%`, `%PROGRAMFILES%`), and Linux (`/usr/bin/google-chrome`, `/usr/bin/chromium`). Users can also override via `--chrome <path>` or `CHROME_PATH` env variable.
+2. **Pre-flight Lock Cleanup & Auto-Recovery**: Prior to launching, `play.js` terminates orphaned `chrome-piano-profile` processes and removes stale `Singleton*` lock files in the cross-platform temporary directory (`path.join(os.tmpdir(), 'chrome-piano-profile')`), preventing browser startup collisions.
 3. **Signal Trapping**: Intercepts `SIGINT` (Ctrl+C) and `SIGTERM` to close browser windows cleanly and release profile locks.
-4. **Bring Window to Front**: Executes `osascript -e 'tell application "Google Chrome" to activate'` so visual animations and audio playback are front and center.
+4. **Bring Window to Front**: On macOS, executes `osascript -e 'tell application "Google Chrome" to activate'` so visual animations and audio playback are front and center.
 5. **Sound Engine Synchronization**: Polls until `!document.body.innerText.includes('WARMING UP PIANO')` so Web Audio samples are loaded before notes trigger.
 6. **Set Visible Keys to Max**:
    - Clicks `.synth-btn--settings`.
@@ -229,6 +236,7 @@ OnlinePianist maps 5 full octaves (C2 through C7) directly to standard computer 
    - Verifies 88 keys exist in DOM (`document.querySelectorAll('.piano-key-white, .piano-key-black').length === 88`).
 7. **Ensure Sustain Pedal**: Confirms `.synth-btn--sustain` has class `synth-btn--on`.
 8. **Studio Direct Audio Bridge**: Connects directly into OnlinePianist's Web Audio synthesis engine (`window.__playMidi`, `window.__releaseMidi`), bypassing OS keyboard modifier drops and ensuring 100% pitch fidelity for all black and white keys with simultaneous visual key glow.
-9. **Dual Playback Formats**:
+9. **Zero-Install Web Player (docs/)**: Standalone HTML5/CSS3/ES6 web app hosted on GitHub Pages (`https://axmadjonteacher.github.io/virtual-piano/`) with physical acoustic grand piano additive synthesis, falling notes Synthesia canvas visualizer, and live interactive playing.
+10. **Dual Playback Formats**:
    - `notes`: High-precision client-side timeline arrays with exact millisecond timestamps (`startMs`, `durMs`, `midi`), used for complex multi-track classical scores (Amélie, Chopin Nocturne, Still D.R.E.).
-   - `events`: Sequential note events (`keys`, `dur`, `wait`), used for classic solo and chord transcriptions.
+   - `events`: Sequential note events (`keys`, `dur`, `wait`), normalized into millisecond timelines for both browser and CLI execution.
