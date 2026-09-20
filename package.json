@@ -1,6 +1,6 @@
 {
   "name": "virtual-piano-player",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Autonomous browser-controlled virtual piano player with 88 visible keys, sustain pedal, and studio-grade Web Audio synthesis.",
   "main": "index.js",
   "bin": {
