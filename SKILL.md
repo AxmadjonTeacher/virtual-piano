@@ -29,6 +29,16 @@ virtual-piano-player/
 │   ├── play.js                   # Master playback engine, audio bridge & lock manager
 │   ├── list.sh                   # In-directory bash catalog runner
 │   └── songs/                    # Curated library of high-precision song JSONs
+│       ├── golden_hour.json      # JVKE's Golden Hour (unabridged cascading piano ~207s)
+│       ├── idea_10.json          # Gibran Alcocer's Idea 10 (3/4 waltz arpeggios ~121s)
+│       ├── solas.json            # Jamie Duffy's Solas (emotive Celtic piano solo ~122s)
+│       ├── blue.json             # Yung Kai's Blue (tender ballad ~105s)
+│       ├── love_story.json       # Indila's Love Story (Bb minor harp & piano ~253s)
+│       ├── hijo_de_la_luna.json  # Mecano's Hijo de la Luna (expressive A minor ~268s)
+│       ├── pretty_little_baby.json # Connie Francis' Pretty Little Baby (1962 pop swing ~94s)
+│       ├── hotline.json          # Billie Eilish's Hotline Edit (haunting ballad ~94s)
+│       ├── i_thought_i_saw_your_face_today.json # She & Him's 60s folk swing ~86s
+│       ├── every_living_breathing_moment.json # Grant Steller's cinematic theme ~101s
 │       ├── chopin_nocturne.json  # Chopin's Nocturne Op. 9 No. 2 (Csabay Domonkos perf. ~248s)
 │       ├── chopin_etude.json     # 60s Fast Chopin Impromptu-Etude in C# minor
 │       ├── vivaldi_winter.json   # Vivaldi's Winter (L'Inverno - Allegro non molto)
@@ -81,6 +91,16 @@ node scripts/play.js --list  # Direct Node CLI
 ### 2. Play Songs via Shell Shortcuts:
 ```bash
 # Play with master "piano" or "virtual-piano" command:
+piano golden                 # JVKE - Golden Hour (unabridged cascading piano)
+piano idea10                 # Gibran Alcocer - Idea 10 (3/4 waltz arpeggios)
+piano solas                  # Jamie Duffy - Solas (emotive Celtic piano solo)
+piano blue                   # Yung Kai - Blue (tender ballad)
+piano lovestory              # Indila - Love Story (Bb minor harp & piano)
+piano luna                   # Mecano - Hijo de la Luna (expressive A minor)
+piano baby                   # Connie Francis - Pretty Little Baby (1962 pop swing)
+piano hotline                # Billie Eilish - Hotline Edit (haunting ballad)
+piano face                   # She & Him - I Thought I Saw Your Face Today
+piano moment                 # Grant Steller - Every Living Breathing Moment
 piano nocturne               # Chopin - Nocturnes, Op. 9: No. 2 (Domonkos Csabay)
 piano amelie                 # Yann Tiersen - Comptine d'un autre été (Amélie)
 piano succession             # Nicholas Britell - Succession Main Title Theme
@@ -91,8 +111,17 @@ piano chopin                 # Chopin - Fast Impromptu-Etude
 piano elise                  # Beethoven - Für Elise
 
 # Or play with direct shortcut aliases:
+play-golden
+play-idea10
+play-solas
+play-blue
+play-lovestory
+play-luna
+play-baby
+play-hotline
+play-face
+play-moment
 play-nocturne
-play-chopin-nocturne
 play-amelie
 play-succession
 play-still
@@ -102,7 +131,7 @@ play-chopin
 play-elise
 
 # Play at custom tempo (e.g. 1.15x speed):
-piano nocturne --tempo 1.15
+piano golden --tempo 1.15
 
 # Play headlessly (for audio testing/CI):
 piano elise --headless true
@@ -113,7 +142,9 @@ piano --file /path/to/my_song.json
 
 ### 3. Instant Zero-Install Execution (NPX):
 ```bash
-npx virtual-piano-player nocturne
+npx virtual-piano-player golden
+npx virtual-piano-player solas
+npx virtual-piano-player idea10
 npx virtual-piano-player amelie
 ```
 
@@ -125,6 +156,16 @@ npx virtual-piano-player amelie
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `amelie` | `play-amelie` | Amélie (Comptine d'un autre été) | Yann Tiersen | E minor | ~122s | 945 notes, client timeline |
 | `nocturne` | `play-nocturne` | Nocturne Op. 9 No. 2 (Andante) | Frédéric Chopin (Csabay Domonkos) | Eb major | ~248s | 1,242 notes, full unabridged |
+| `golden` | `play-golden` | Golden Hour | JVKE | E major | ~207s | 2,716 notes, sparkling arpeggios |
+| `idea10` | `play-idea10` | Idea 10 | Gibran Alcocer | G minor | ~121s | 1,076 notes, 3/4 waltz arpeggios |
+| `solas` | `play-solas` | Solas | Jamie Duffy | E minor | ~122s | 808 notes, emotive Celtic piano |
+| `blue` | `play-blue` | Blue | Yung Kai | E major | ~105s | 744 notes, warm tender chords |
+| `lovestory` | `play-lovestory` | Love Story | Indila | Bb minor | ~253s | 1,655 notes, concert harp & piano |
+| `luna` | `play-luna` | Hijo de la Luna | Mecano (José María Cano) | A minor | ~268s | 1,636 notes, expressive piano score |
+| `baby` | `play-baby` | Pretty Little Baby | Connie Francis | Db major | ~94s | 754 notes, 1962 pop swing |
+| `hotline` | `play-hotline` | Hotline (Edit) | Billie Eilish | A minor | ~94s | 329 notes, intimate acoustic ballad |
+| `face` | `play-face` | I Thought I Saw Your Face Today | She & Him (Zooey Deschanel) | G major | ~86s | 550 notes, 60s folk pop swing |
+| `moment` | `play-moment` | Every Living Breathing Moment | Grant Steller | F major | ~101s | 431 notes, cinematic film score |
 | `succession` | `play-succession` | Succession (Main Title Theme) | Nicholas Britell | C minor | ~89s | 390 notes, hip-hop/classical |
 | `still` | `play-still` | Still D.R.E. (Polished Master) | Dr. Dre ft. Snoop Dogg | A minor | ~66s | 374 notes, classic 8-beat loop |
 | `paint` | `play-paint` | Paint It, Black | The Rolling Stones (Westworld) | E minor | ~50s | 98 events, driving rock rhythm |

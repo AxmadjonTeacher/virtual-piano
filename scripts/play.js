@@ -75,6 +75,16 @@ function listSongs() {
   const SONG_ORDER = [
     { file: 'amelie.json', alias: 'amelie', shortcut: 'play-amelie' },
     { file: 'chopin_nocturne.json', alias: 'nocturne', shortcut: 'play-nocturne' },
+    { file: 'golden_hour.json', alias: 'golden', shortcut: 'play-golden' },
+    { file: 'idea_10.json', alias: 'idea10', shortcut: 'play-idea10' },
+    { file: 'solas.json', alias: 'solas', shortcut: 'play-solas' },
+    { file: 'blue.json', alias: 'blue', shortcut: 'play-blue' },
+    { file: 'love_story.json', alias: 'lovestory', shortcut: 'play-lovestory' },
+    { file: 'hijo_de_la_luna.json', alias: 'luna', shortcut: 'play-luna' },
+    { file: 'pretty_little_baby.json', alias: 'baby', shortcut: 'play-baby' },
+    { file: 'hotline.json', alias: 'hotline', shortcut: 'play-hotline' },
+    { file: 'i_thought_i_saw_your_face_today.json', alias: 'face', shortcut: 'play-face' },
+    { file: 'every_living_breathing_moment.json', alias: 'moment', shortcut: 'play-moment' },
     { file: 'succession.json', alias: 'succession', shortcut: 'play-succession' },
     { file: 'still_dre.json', alias: 'still', shortcut: 'play-still' },
     { file: 'paint_it_black.json', alias: 'paint', shortcut: 'play-paint' },
@@ -227,6 +237,26 @@ function loadSong(options) {
       filePath = path.join(songsDir, 'succession.json');
     } else if (s === 'amelie' || s === 'comptine' || s === 'comptine_dun_autre_ete' || s === 'tiersen' || s === 'yann_tiersen') {
       filePath = path.join(songsDir, 'amelie.json');
+    } else if (s === 'golden' || s === 'golden_hour' || s === 'goldenhour' || s === 'jvke' || s === 'jvke_golden_hour') {
+      filePath = path.join(songsDir, 'golden_hour.json');
+    } else if (s === 'idea10' || s === 'idea_10' || s === 'idea' || s === 'gibran' || s === 'alcocer' || s === 'gibran_alcocer') {
+      filePath = path.join(songsDir, 'idea_10.json');
+    } else if (s === 'solas' || s === 'jamie' || s === 'duffy' || s === 'jamie_duffy') {
+      filePath = path.join(songsDir, 'solas.json');
+    } else if (s === 'blue' || s === 'yungkai' || s === 'yung_kai' || s === 'kai') {
+      filePath = path.join(songsDir, 'blue.json');
+    } else if (s === 'baby' || s === 'pretty_little_baby' || s === 'pretty' || s === 'connie' || s === 'francis' || s === 'connie_francis') {
+      filePath = path.join(songsDir, 'pretty_little_baby.json');
+    } else if (s === 'hotline' || s === 'hotline_edit' || s === 'billie' || s === 'eilish' || s === 'billie_eilish' || s === 'hotline_bling') {
+      filePath = path.join(songsDir, 'hotline.json');
+    } else if (s === 'face' || s === 'i_thought_i_saw_your_face_today' || s === 'she_and_him' || s === 'she&him' || s === 'sheandhim' || s === 'deschanel') {
+      filePath = path.join(songsDir, 'i_thought_i_saw_your_face_today.json');
+    } else if (s === 'luna' || s === 'hijo_de_la_luna' || s === 'hijo' || s === 'mecano' || s === 'cano') {
+      filePath = path.join(songsDir, 'hijo_de_la_luna.json');
+    } else if (s === 'lovestory' || s === 'love_story' || s === 'indila' || s === 'love') {
+      filePath = path.join(songsDir, 'love_story.json');
+    } else if (s === 'moment' || s === 'every_living_breathing_moment' || s === 'grant' || s === 'steller' || s === 'grant_steller' || s === 'breathing') {
+      filePath = path.join(songsDir, 'every_living_breathing_moment.json');
     } else {
       filePath = path.join(songsDir, `${s}.json`);
     }
