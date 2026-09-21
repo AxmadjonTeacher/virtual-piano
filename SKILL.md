@@ -36,9 +36,9 @@ virtual-piano-player/
 │   ├── list.sh                   # In-directory bash catalog runner
 │   └── songs/                    # Curated library of high-precision song JSONs
 │       ├── golden_hour.json      # JVKE's Golden Hour (unabridged cascading piano ~207s)
-│       ├── idea_10.json          # Gibran Alcocer's Idea 10 (3/4 waltz arpeggios ~121s)
-│       ├── solas.json            # Jamie Duffy's Solas (emotive Celtic piano solo ~122s)
-│       ├── blue.json             # Yung Kai's Blue (tender ballad ~105s)
+│       ├── idea_10.json          # Gibran Alcocer's Idea 10 (3/4 waltz arpeggios ~125s)
+│       ├── solas.json            # Jamie Duffy's Solas (emotive Celtic piano solo ~214s)
+│       ├── blue.json             # Yung Kai's Blue (tender ballad ~113s)
 │       ├── love_story.json       # Indila's Love Story (Bb minor harp & piano ~253s)
 │       ├── hijo_de_la_luna.json  # Mecano's Hijo de la Luna (expressive A minor ~268s)
 │       ├── pretty_little_baby.json # Connie Francis' Pretty Little Baby (1962 pop swing ~94s)
@@ -164,9 +164,9 @@ npx virtual-piano-by-axmadjon amelie
 | `amelie` | `play-amelie` | Amélie (Comptine d'un autre été) | Yann Tiersen | E minor | ~122s | 945 notes, client timeline |
 | `nocturne` | `play-nocturne` | Nocturne Op. 9 No. 2 (Andante) | Frédéric Chopin (Csabay Domonkos) | Eb major | ~248s | 1,242 notes, full unabridged |
 | `golden` | `play-golden` | Golden Hour | JVKE | E major | ~207s | 2,716 notes, sparkling arpeggios |
-| `idea10` | `play-idea10` | Idea 10 | Gibran Alcocer | G minor | ~121s | 1,076 notes, 3/4 waltz arpeggios |
-| `solas` | `play-solas` | Solas | Jamie Duffy | E minor | ~122s | 808 notes, emotive Celtic piano |
-| `blue` | `play-blue` | Blue | Yung Kai | E major | ~105s | 744 notes, warm tender chords |
+| `idea10` | `play-idea10` | Idea 10 | Gibran Alcocer | G minor | ~125s | 925 notes, 3/4 waltz arpeggios |
+| `solas` | `play-solas` | Solas | Jamie Duffy | E minor | ~214s | 1,636 notes, full 78-measure authentic score |
+| `blue` | `play-blue` | Blue | Yung Kai | E major | ~113s | 684 notes, tender acoustic ballad & melody |
 | `lovestory` | `play-lovestory` | Love Story | Indila | Bb minor | ~253s | 1,655 notes, concert harp & piano |
 | `luna` | `play-luna` | Hijo de la Luna | Mecano (José María Cano) | A minor | ~268s | 1,636 notes, expressive piano score |
 | `baby` | `play-baby` | Pretty Little Baby | Connie Francis | Db major | ~94s | 754 notes, 1962 pop swing |

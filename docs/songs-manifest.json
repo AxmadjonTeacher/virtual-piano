@@ -18,8 +18,8 @@
     "key": "G minor",
     "category": "Modern Classical",
     "sustain": true,
-    "durationSec": 121,
-    "noteCount": 1076
+    "durationSec": 125,
+    "noteCount": 925
   },
   {
     "id": "solas",
@@ -29,8 +29,8 @@
     "key": "E minor",
     "category": "Modern Classical",
     "sustain": true,
-    "durationSec": 122,
-    "noteCount": 808
+    "durationSec": 214,
+    "noteCount": 1636
   },
   {
     "id": "blue",
@@ -40,8 +40,8 @@
     "key": "E major",
     "category": "Pop / Indie",
     "sustain": true,
-    "durationSec": 105,
-    "noteCount": 744
+    "durationSec": 113,
+    "noteCount": 684
   },
   {
     "id": "amelie",

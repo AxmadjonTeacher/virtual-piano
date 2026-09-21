@@ -85,9 +85,9 @@ npm install
 | `amelie` | `play-amelie` | Amélie (Comptine d'un autre été) | Yann Tiersen | E minor | ~122s |
 | `nocturne` | `play-nocturne` | Nocturne Op. 9 No. 2 (Andante) | Frédéric Chopin (Csabay Domonkos) | Eb major | ~248s |
 | `golden` | `play-golden` | Golden Hour | JVKE | E major | ~207s |
-| `idea10` | `play-idea10` | Idea 10 | Gibran Alcocer | G minor | ~121s |
-| `solas` | `play-solas` | Solas | Jamie Duffy | E minor | ~122s |
-| `blue` | `play-blue` | Blue | Yung Kai | E major | ~105s |
+| `idea10` | `play-idea10` | Idea 10 | Gibran Alcocer | G minor | ~125s |
+| `solas` | `play-solas` | Solas | Jamie Duffy | E minor | ~214s |
+| `blue` | `play-blue` | Blue | Yung Kai | E major | ~113s |
 | `lovestory` | `play-lovestory` | Love Story | Indila | Bb minor | ~253s |
 | `luna` | `play-luna` | Hijo de la Luna | Mecano (José María Cano) | A minor | ~268s |
 | `baby` | `play-baby` | Pretty Little Baby | Connie Francis | Db major | ~94s |
