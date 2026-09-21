@@ -1,6 +1,6 @@
 {
   "name": "virtual-piano-by-axmadjon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Virtual Piano by Axmadjon",
   "description": "Automates OnlinePianist virtual piano in the browser with 88 keys, sustain pedal, and studio-grade Web Audio synthesis.",
   "author": "AxmadjonTeacher",
